@@ -13,16 +13,15 @@
 
 <body>
   <div class="wrap_listcontent">
-    <!-- class="schedule_off" 스케줄 없을 경우-->
-    <!-- class="schedule_on" 스케줄 있을 경우-->
     <div class="welcometext">
       <h1 class="kz_title">KZ<br>MEETING<br>ROOM<br>DASHBOARD</h1>
-      <div class="time">
+      <div class="container_time">
         <img src="./images/ic_clock.png" alt="시계아이콘"/>
         <p id="realtime">AM 09:46</p>
       </div>
-      <p>고려아연 회의실 예약현황 시스템입니다.<br>우측의 회의실을 클릭하시면,<br>상세 예약현황을 보실 수 있습니다.</p>
+      <p class="info_message">고려아연 회의실 예약현황 시스템입니다.<br>우측의 회의실을 클릭하시면,<br>상세 예약현황을 보실 수 있습니다.</p>
     </div>
+    <!-- meeting_on 예약된 미팅이 있을 때, meeting_off 예약된 미팅이 없을 때 -->
     <div class="list_rooms slimscroll">
       <div class="roominfo meeting_on">
         <ul class="data_meeting">
@@ -33,16 +32,16 @@
         </ul>
       </div>
       <div class="roominfo meeting_off">
-        <div class="data_meeting">
-          <p class="room">LEAD</p>
-          <p class="message">진행중인 회의가 없습니다</p>
-        </div>
+        <ul class="data_meeting">
+          <li class="room">LEAD</li>
+          <li class="message">진행중인 회의가 없습니다</li>
+        </ul>
       </div>
       <div class="roominfo meeting_off">
-        <div class="data_meeting">
-          <p class="room">GOLD</p>
-          <p class="message">진행중인 회의가 없습니다</p>
-        </div>
+        <ul class="data_meeting">
+          <li class="room">GOLD</li>
+          <li class="message">진행중인 회의가 없습니다</li>
+        </ul>
       </div>
       <div class="roominfo meeting_on">
         <ul class="data_meeting">
@@ -53,22 +52,22 @@
         </ul>
       </div>
       <div class="roominfo meeting_off">
-        <div class="data_meeting">
-          <p class="room">PLATINUM</p>
-          <p class="message">진행중인 회의가 없습니다</p>
-        </div>
+        <ul class="data_meeting">
+          <li class="room">PLATINUM</li>
+          <li class="message">진행중인 회의가 없습니다</li>
+        </ul>
       </div>
       <div class="roominfo meeting_off">
-        <div class="data_meeting">
-          <p class="room">COOPPER</p>
-          <p class="message">진행중인 회의가 없습니다</p>
-        </div>
+        <ul class="data_meeting">
+          <li class="room">COOPPER</li>
+          <li class="message">진행중인 회의가 없습니다</li>
+        </ul>
       </div>
       <div class="roominfo meeting_off">
-        <div class="data_meeting">
-          <p class="room">대회의실</p>
-          <p class="message">진행중인 회의가 없습니다</p>
-        </div>
+        <ul class="data_meeting">
+          <li class="room">대회의실</li>
+          <li class="message">진행중인 회의가 없습니다</li>
+        </ul>
       </div>
     </div>
   </div>
