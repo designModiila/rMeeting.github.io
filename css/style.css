@@ -256,6 +256,7 @@ p, h1, h2, span {
   text-overflow: ellipsis;
   white-space: nowrap;
 }
+
 .list {
   display: inline-block;
   text-align: right;
