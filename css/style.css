@@ -104,6 +104,9 @@ p, h1, h2, span {
 .schedule_off .name_reserv, .schedule_off .time_reserv {
   display : none;
 }
+.schedule_off .map {
+  display: none;
+}
 
 /*지도*/
 .map {
