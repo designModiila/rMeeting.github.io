@@ -509,6 +509,7 @@ p, h1, h2, span {
     margin-left: -20px;
     margin-top: 116px;
   }
+<<<<<<< HEAD
   .map h1 {
     font-size: 22px;
     font-weight: 400;
@@ -516,6 +517,8 @@ p, h1, h2, span {
     opacity: 0.8;
   }
 
+=======
+>>>>>>> b75e18a303176d4c0f38c358d22c38a829563f5e
   .n_information {
     width: 45%;
     min-height: 600px;
